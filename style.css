@@ -1,0 +1,124 @@
+/*
+Theme Name: Wordpress Test
+Author: gemboy
+Description: Basic Wordpress Theme
+Version: 0.0.1
+Tags: bootstrap
+
+* Bootstrap v4.0.0 (https://getbootstrap.com)
+* Copyright 2011-2018 The Bootstrap Authors
+* Copyright 2011-2018 Twitter, Inc.
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:500|Tinos');
+:root {
+  /* --primary: #4582EC;
+  --secondary: #adb5bd;
+  --success: #02B875;
+  --info: #17a2b8;
+  --warning: #f0ad4e;
+  --danger: #d9534f; */
+  --white: #fff;
+  --light: #F4EFEF;
+  --dark: #343a40;
+  --light-blue: #c0e4f7;
+  --blue: #7D9ADB;
+  --lavender: #DFC2ED;
+  --purple: #c195db;
+  --rose: #EDC7D9;
+  --rust: #D86E56;
+  --red: #A0250C;
+  --brown: #916b5b;
+  --sand: #E8D2A9;
+  --grey: #7C7487;
+  --light-green: #C2EACE;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-serif: 'Tinos', serif;
+  --font-family-sans-serif: 'Roboto', sans-serif;
+}
+
+/* custom classes to add quick styling */
+
+.serif {
+  font-family: var(--font-family-serif);
+}
+
+.sans-serif {
+  font-family: var(--font-family-sans-serif);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.text-light-blue {
+  color: var(--light-blue);
+}
+
+.text-lavender {
+  color: var(--lavender);
+}
+
+.text-purple {
+  color: var(--purple);
+}
+
+.text-rust {
+  color: var(--rust);
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.text-brown {
+  color: var(--brown);
+}
+
+.text-sand {
+  color: var(--sand);
+}
+
+.text-rose {
+  color: var(--rose);
+}
+
+.text-light-green {
+  color: var(--light-green);
+}
+
+.text-grey {
+  color: var(--grey);
+}
+
+.text-light {
+  color: var(--light);
+}
+
+body {
+  background-color: var(--light);
+}
+
+/* Navbar CSS */
+#header-nav {
+  background-color: var(--white);
+}
+
+#header-nav a {
+  background-color: var(--white);
+  /* color: var(--grey); */
+}
+
+#header-nav a.nav-item.nav-link.disabled {
+  color: var(--grey);
+}
+
+#header-img {
+  width: 100%;
+  max-height: 900px;
+}
